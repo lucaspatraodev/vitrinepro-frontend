@@ -14,8 +14,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="bg-primary"
+        className="bg-surface"
       >
+        {/* "bg-[--color-primary]" */}
         {children}
       </body>
     </html>
